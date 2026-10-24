@@ -39,7 +39,7 @@ if exist "dist" rmdir /s /q "dist"
 if exist "EzZapret.spec" del /q "EzZapret.spec"
 
 echo [EzZapret] Building EzZapret.exe...
-pyinstaller --noconfirm --clean --onefile --windowed --uac-admin --name EzZapret --icon "%~dp0assets\EzZapret.ico" --add-data "%CTK_DIR%;customtkinter" --add-data "%~dp0assets\EzZapret.ico;assets" --collect-all truststore main.py
+pyinstaller --noconfirm --clean --onefile --windowed --uac-admin --name EzZapret --icon "%~dp0assets\EzZapret.ico" --add-data "%CTK_DIR%;customtkinter" --add-data "%~dp0assets\EzZapret.ico;assets" main.py
 if errorlevel 1 (
     echo [ERROR] Build failed.
     pause
