@@ -26,7 +26,7 @@ from tkinter import filedialog
 
 
 PROGRAM_NAME = "EzZapret"
-PROGRAM_VERSION = "1.3.1"
+PROGRAM_VERSION = "1.3.2"
 PROJECT_GITHUB_URL = "https://github.com/s1nlow/EzZapret"
 ZAPRET_GITHUB_URL = "https://github.com/Flowseal/zapret-discord-youtube"
 ZAPRET_OWNER = "Flowseal"
